@@ -37,11 +37,13 @@
   }
 }
 
+/* modify the alignment of notification  */
 .Toastify__toast-body {
   width: 100%;
   text-align: center;
 }
 
+/* modify the background of tool-tip */
 .tippy-box[data-theme~='tomato'] {
   background-color: tomato;
   color: yellow;

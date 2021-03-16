@@ -1,4 +1,5 @@
 import './App.css';
+import ReactCountup from './components/react-countup/ReactCountup';
 import ReactIcons from './components/react-icons/ReactIcons';
 import ReactModalDemo from './components/react-modal/ReactModalDemo';
 import ReactToastify from './components/react-toastify/ReactToastify';
@@ -15,6 +16,8 @@ function App() {
       <ReactModalDemo />
       <h1 style={{ color: 'red' }}>REACT TOOLTIP</h1>
       <ReactTooltip />
+      <h1 style={{ color: 'red' }}>REACT COUNTUP</h1>
+      <ReactCountup />
     </div>
   );
 }
