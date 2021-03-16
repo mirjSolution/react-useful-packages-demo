@@ -2,6 +2,7 @@ import './App.css';
 import ReactIcons from './components/react-icons/ReactIcons';
 import ReactModalDemo from './components/react-modal/ReactModalDemo';
 import ReactToastify from './components/react-toastify/ReactToastify';
+import ReactTooltip from './components/react-tooltip/ReactTooltip';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <ReactToastify />
       <h1 style={{ color: 'red' }}>REACT MODAL</h1>
       <ReactModalDemo />
+      <h1 style={{ color: 'red' }}>REACT TOOLTIP</h1>
+      <ReactTooltip />
     </div>
   );
 }

@@ -41,3 +41,8 @@
   width: 100%;
   text-align: center;
 }
+
+.tippy-box[data-theme~='tomato'] {
+  background-color: tomato;
+  color: yellow;
+}
