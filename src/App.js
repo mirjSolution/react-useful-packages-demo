@@ -1,4 +1,5 @@
 import './App.css';
+import ReactCharts from './components/react-charts/ReactCharts';
 import ReactColorPicker from './components/react-color-picker/ReactColorPicker';
 import ReactCountup from './components/react-countup/ReactCountup';
 import ReactCreditCards from './components/react-credit-cards/ReactCreditCards';
@@ -37,6 +38,8 @@ function App() {
       <ReactPlayerDemo />
       <h1 style={{ color: 'red' }}>REACT LOADING INDICATOR</h1>
       <ReactSpinnersDemo />
+      <h1 style={{ color: 'red' }}>REACT CHARTS</h1>
+      <ReactCharts />
     </div>
   );
 }
