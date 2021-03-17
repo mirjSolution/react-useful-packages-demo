@@ -1,8 +1,8 @@
-import ReactCreditCard from 'react-credit-cards';
 import './App.css';
 import ReactColorPicker from './components/react-color-picker/ReactColorPicker';
 import ReactCountup from './components/react-countup/ReactCountup';
 import ReactCreditCards from './components/react-credit-cards/ReactCreditCards';
+import ReactDatePicker from './components/react-date-picker/ReactDatePicker';
 import ReactIcons from './components/react-icons/ReactIcons';
 import ReactIdleTimer from './components/react-idle-timer/ReactIdleTimer';
 import ReactModalDemo from './components/react-modal/ReactModalDemo';
@@ -28,6 +28,8 @@ function App() {
       <ReactColorPicker />
       <h1 style={{ color: 'red' }}>REACT CREDIT CARDS</h1>
       <ReactCreditCards />
+      <h1 style={{ color: 'red' }}>REACT DATE PICKER</h1>
+      <ReactDatePicker />
     </div>
   );
 }
