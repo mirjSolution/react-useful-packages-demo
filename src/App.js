@@ -7,6 +7,7 @@ import ReactIcons from './components/react-icons/ReactIcons';
 import ReactIdleTimer from './components/react-idle-timer/ReactIdleTimer';
 import ReactModalDemo from './components/react-modal/ReactModalDemo';
 import ReactPlayerDemo from './components/react-player/ReactPlayerDemo';
+import ReactSpinnersDemo from './components/react-spinners/ReactSpinners';
 
 import ReactToastify from './components/react-toastify/ReactToastify';
 import ReactTooltip from './components/react-tooltip/ReactTooltip';
@@ -34,6 +35,8 @@ function App() {
       <ReactDatePicker />
       <h1 style={{ color: 'red' }}>REACT VIDEO PLAYER</h1>
       <ReactPlayerDemo />
+      <h1 style={{ color: 'red' }}>REACT LOADING INDICATOR</h1>
+      <ReactSpinnersDemo />
     </div>
   );
 }
