@@ -1,6 +1,7 @@
 // npm install react-countup
 import React from 'react';
-import CountUp, { useCountUp } from 'react-countup';
+// import CountUp, { useCountUp } from 'react-countup';
+import { useCountUp } from 'react-countup';
 
 function ReactCountup() {
   const { countUp, start, pauseResume, reset, update } = useCountUp({
@@ -17,7 +18,7 @@ function ReactCountup() {
         <button onClick={pauseResume}>Pause</button>
         <button onClick={() => update(2000)}>Update to 2000</button>
       </div>
-      <h1>
+      {/* <h1>
         <CountUp end={200} />
       </h1>
       <br />
@@ -33,7 +34,7 @@ function ReactCountup() {
       </h1>
       <h1>
         <CountUp end={1000} duration={5} suffix='USD' decimals={2} />
-      </h1>
+      </h1> */}
     </div>
   );
 }

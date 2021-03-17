@@ -1,4 +1,5 @@
 import './App.css';
+import ReactColorPicker from './components/react-color-picker/ReactColorPicker';
 import ReactCountup from './components/react-countup/ReactCountup';
 import ReactIcons from './components/react-icons/ReactIcons';
 import ReactIdleTimer from './components/react-idle-timer/ReactIdleTimer';
@@ -21,6 +22,8 @@ function App() {
       <ReactCountup />
       <h1 style={{ color: 'red' }}>REACT IDLE TIMER</h1>
       <ReactIdleTimer />
+      <h1 style={{ color: 'red' }}>REACT COLOR PICKER</h1>
+      <ReactColorPicker />
     </div>
   );
 }
