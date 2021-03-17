@@ -1,3 +1,4 @@
+// npm install react-icons
 import React from 'react';
 import { IconContext } from 'react-icons';
 import { GiAbstract018 } from 'react-icons/gi';

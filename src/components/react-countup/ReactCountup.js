@@ -1,3 +1,4 @@
+// npm install react-countup
 import React from 'react';
 import CountUp, { useCountUp } from 'react-countup';
 
